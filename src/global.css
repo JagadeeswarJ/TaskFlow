@@ -1,0 +1,14 @@
+.table_content {
+  max-height: 250px;
+  overflow-y: auto;
+}
+.add_task_main {
+  min-height: 300px;
+}
+
+.dynamic-button {
+  display: none;
+}
+.current-hovering-row:hover .dynamic-button {
+  display: inline-block;
+}
