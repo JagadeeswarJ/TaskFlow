@@ -12,3 +12,7 @@
 .current-hovering-row:hover .dynamic-button {
   display: inline-block;
 }
+
+.main-page {
+  background-color: rgb(34, 39, 43);
+}
