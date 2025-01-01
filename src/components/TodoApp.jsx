@@ -6,10 +6,10 @@ function TodoApp() {
   let [tasks, setTasks] = useState([]);
   return (
     <div className="d-flex justify-content-around">
-      <div className="vw-50">
+      <div>
         <AddTasks tasks={tasks} setTasks={setTasks} />
       </div>
-      <div className="w-50">
+      <div>
         <ShowTask tasks={tasks} setTasks={setTasks} />
       </div>
     </div>
