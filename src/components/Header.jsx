@@ -2,17 +2,23 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
+    <div className="main-Header">
       <div>
-        <div>
-          <p>Icon</p>
-        </div>
+        <p>Icon</p>
+      </div>
 
-        <div>
-          <p>To-Do</p>
-          <p>Eisen - Hower Matrix</p>
-          <p>Reapeated Task</p>
-        </div>
+      <div className="main-nav-links">
+        <ul>
+          <Link>
+            <li>To-Do</li>
+          </Link>
+          <Link>
+            <li>Eisen - Hower Matrix</li>
+          </Link>
+          <Link>
+            <li>Reapeated Task</li>
+          </Link>
+        </ul>
       </div>
     </div>
   );
