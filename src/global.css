@@ -21,13 +21,14 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: 10px;
+  background-color: rgb(74, 15, 89);
 }
 li {
   list-style: none;
 }
 .main-nav-links {
   display: flex;
+  margin-left: 10px;
   flex-wrap: wrap;
   width: 600px;
   justify-content: space-evenly;
