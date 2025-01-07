@@ -1,0 +1,37 @@
+.header {
+  /* border: solid black 0.5px; */
+  background-color: rgb(35, 32, 51);
+}
+.header .container {
+  height: 90px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .image-container {
+  margin-left: 75px;
+  /* border: solid black; */
+}
+.header .logo {
+  max-height: 90px;
+  width: auto;
+}
+
+.header .nav-menu {
+  display: flex;
+}
+.nav-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.nav-menu {
+  margin-right: 100px;
+}
+
+.nav-menu a {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,12 @@
+.a {
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.welcome {
+  border: solid;
+  min-height: 1000px;
+}

@@ -1,0 +1,21 @@
+.footer {
+  background-color: rgb(35, 32, 51);
+  min-height: 300px;
+  color: white;
+  /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
+}
+.footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  padding: 2rem;
+}
+.footer .col {
+  display: flex;
+  flex-direction: column;
+}
+.footer a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+}

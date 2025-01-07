@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./Navbar";
 import TodoApp from "./todoPage/TodoMain";
 import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
