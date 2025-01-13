@@ -35,3 +35,21 @@
   color: white;
   text-decoration: none;
 }
+
+.main-logo {
+  display: flex;
+  width: 270px;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.main-icon {
+  width: 65px;
+  display: block;
+}
+.main-title {
+  color: white;
+  font-size: 3rem;
+  align-self: center;
+}

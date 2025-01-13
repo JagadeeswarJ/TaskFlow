@@ -6,11 +6,10 @@ function Navbar() {
   return (
     <div className="header">
       <div className="container">
-        <div className="image-container">
-          <Link to="">
-            <img src={icon} alt="Main-Logo" className="logo"></img>
-          </Link>
-        </div>
+        <Link to="" className="main-logo">
+          <img src={icon} alt="main-icon" className="main-icon"></img>
+          <h2 className="main-title">TaskFlow</h2>
+        </Link>
         <div>
           <ul className="nav-menu">
             <li>

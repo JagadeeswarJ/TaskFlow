@@ -6,7 +6,7 @@ import {
 import RootLayout from "./components/RootLayout";
 import Todo from "./components/todoPage/TodoMain";
 import EisenMain from "./components/eisenPage/EisenMain";
-import Welcome from "./components/Welcome";
+import Home from "./components/Home";
 import RepeatedMain from "./components/repeatedTaskPage/RepeatedMain";
 
 function App() {
@@ -16,12 +16,16 @@ function App() {
       element: <RootLayout />,
       children: [
         {
+          path: "",
+          element: <Navigate to="home" />,
+        },
+        {
           path: "todo",
           element: <Todo />,
         },
         {
-          path: "welcome",
-          element: <Welcome />,
+          path: "home",
+          element: <Home />,
         },
         {
           path: "eisen",
