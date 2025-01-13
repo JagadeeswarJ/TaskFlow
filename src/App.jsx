@@ -12,18 +12,12 @@ import RepeatedMain from "./components/repeatedTaskPage/RepeatedMain";
 function App() {
   const browserRouterObj = createBrowserRouter([
     {
-      path: "",
+      path: "/",
       element: <RootLayout />,
       children: [
         {
           path: "todo",
           element: <Todo />,
-          children: [
-            {
-              path: "",
-              element: <Todo />,
-            },
-          ],
         },
         {
           path: "welcome",
