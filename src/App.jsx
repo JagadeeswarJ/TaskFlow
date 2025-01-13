@@ -16,10 +16,6 @@ function App() {
       element: <RootLayout />,
       children: [
         {
-          path: "",
-          element: <Navigate to={"welcome"} />,
-        },
-        {
           path: "todo",
           element: <Todo />,
         },
