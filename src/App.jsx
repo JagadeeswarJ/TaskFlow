@@ -18,6 +18,12 @@ function App() {
         {
           path: "todo",
           element: <Todo />,
+          children: [
+            {
+              path: "",
+              element: <Todo />,
+            },
+          ],
         },
         {
           path: "welcome",
