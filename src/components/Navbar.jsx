@@ -14,16 +14,16 @@ function Navbar() {
         <div>
           <ul className="nav-menu">
             <li>
-              <Link to="">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="todo">ToDo</Link>
+              <Link to="/todo">ToDo</Link>
             </li>
             <li>
-              <Link to="eisen">Eisen - Hower Matrix</Link>
+              <Link to="/eisen">Eisen - Hower Matrix</Link>
             </li>
             <li>
-              <Link to="repeatedTask">Reapeated Task</Link>
+              <Link to="/repeatedTask">Reapeated Task</Link>
             </li>
           </ul>
         </div>
