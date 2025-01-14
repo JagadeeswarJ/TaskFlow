@@ -1,45 +1,20 @@
-import {
-  Navigate,
-  RouterProvider,
-  createBrowserRouter,
-} from "react-router-dom";
-import RootLayout from "./components/RootLayout";
-import Todo from "./components/todoPage/TodoMain";
-import EisenMain from "./components/eisenPage/EisenMain";
-import Home from "./components/Home";
-import RepeatedMain from "./components/repeatedTaskPage/RepeatedMain";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import router from "./router";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
-  const browserRouterObj = createBrowserRouter([
-    {
-      path: "/",
-      element: <RootLayout />,
-      children: [
-        {
-          path: "",
-          element: <Navigate to="home" />,
-        },
-        {
-          path: "todo",
-          element: <Todo />,
-        },
-        {
-          path: "home",
-          element: <Home />,
-        },
-        {
-          path: "eisen",
-          element: <EisenMain />,
-        },
-        {
-          path: "repeatedTask",
-          element: <RepeatedMain />,
-        },
-      ],
-    },
-  ]);
-
-  return <RouterProvider router={browserRouterObj} />;
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        {router.map((route, index) => (
+          <Route key={index} path={route.path} element={<route.component />} />
+        ))}
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  );
 }
 
 export default App;

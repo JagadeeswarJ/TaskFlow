@@ -1,8 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import github from "../assets/github.png";
+import github from "../assets/github.svg";
 import gmail from "../assets/gmail.png";
 import linkedin from "../assets/linkedin.png";
+
 function Footer() {
   const owner = "JagadeeswarJ";
   const repo = "TaskFlow";
