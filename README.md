@@ -19,3 +19,6 @@ TaskFlow is a versatile todo application designed to help you manage your tasks 
 2. Install dependencies:
    ```sh
    npm install
+   
+3. Run in Local
+   ```npm run dev
